@@ -1,3 +1,5 @@
+   在FMDB基础上封装了一层，通过配置XML来维护数据库结构，执行SQL语句。使代码更简洁。 
+   
    [KS_GET_DEF_CONFIG_SHARED() initializeDatabase];
     
     DLog(@"%@", [KS_GET_DEF_CONFIG_SHARED() dbPath]);
